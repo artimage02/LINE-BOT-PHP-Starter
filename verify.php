@@ -4,8 +4,7 @@ $access_token= '993c49868f382dbd31dfd38d9068d045
 
 $url = 'https://api.line.me/v1/oauth/verify';
 
-$headers = array('Authorization: Bearer ' . c49868f382dbd31dfd38d9068d045
-);
+$headers = array('Authorization: Bearer ' . $access_token);
 
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
