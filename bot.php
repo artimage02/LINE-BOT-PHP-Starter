@@ -51,7 +51,5 @@ if($events['events'][0]['message']['text'] == "สวัสดี"){
 			curl_close($ch);
 
 			echo $result . "\r\n";
-		}
-	}
-}
+
 echo "OK";
