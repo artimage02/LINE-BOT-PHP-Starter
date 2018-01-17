@@ -20,7 +20,7 @@ if (!is_null($events['events'])) {
 			$messages = [
 			 {
             'type':'text',
-            'text":'Hello',
+            'text':'Hello',
         },
         {
             'type':'text',
